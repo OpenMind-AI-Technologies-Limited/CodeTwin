@@ -1,0 +1,77 @@
+name: Bug report
+description: Report a reproducible defect in CodeTwin ML (not a security vulnerability)
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting. Do **not** post credentials, proprietary code, security exploit details, or private logs. Report vulnerabilities privately as explained in SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit SHA
+      description: Include an exact version or commit identifier.
+      placeholder: "v0.1.0 or commit SHA"
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected component
+      options:
+        - Desktop UI / Tauri
+        - Workspace / indexing
+        - Local AI / datasets
+        - Code quality / security analysis
+        - Authorized web testing
+        - Repair / rollback
+        - Database / storage
+        - Build / installer
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS version, architecture, relevant runtime or model version.
+      placeholder: "Windows 11 x64, Rust ..., Node ..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Prefer a minimal, non-sensitive local fixture.
+      placeholder: "1. ...\n2. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include sanitized errors and distinguish failures from missing test evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs / screenshots
+      description: Optional. Redact paths, tokens, personal details, and sensitive source.
+      render: text
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked for duplicates and removed secrets or sensitive information.
+          required: true
+        - label: This is not a security vulnerability report.
+          required: true
