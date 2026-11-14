@@ -1,0 +1,53 @@
+name: Feature request
+description: Suggest a focused improvement to CodeTwin ML
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the use case, not just a proposed implementation. Keep safety and evidence boundaries explicit.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Who needs this and why does existing behavior fall short?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed behavior
+      description: Describe how a user would interact with the feature.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Observable outcomes, tests, UI or API behavior, and any resource constraints.
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Workspace / indexing
+        - Local AI / datasets
+        - Code analysis / security
+        - Authorized web testing
+        - QA / testing
+        - Remediation
+        - Desktop UI / installer
+        - Other
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Security, privacy, performance, or compatibility constraints
+      description: Clarify validation requirements, offline expectations, and safety boundaries.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
