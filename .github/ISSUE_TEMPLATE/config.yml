@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a vulnerability privately
+    url: https://github.com/OpenMind-AI-Technologies-Limited/CodeTwin-ML/blob/main/SECURITY.md
+    about: Read the security disclosure policy; do not publish exploit details in issues.
+  - name: Support and usage guidance
+    url: https://github.com/OpenMind-AI-Technologies-Limited/CodeTwin-ML/blob/main/SUPPORT.md
+    about: Check support options and information needed for a useful report.
