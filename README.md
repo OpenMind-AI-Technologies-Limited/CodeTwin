@@ -1,3 +1,26 @@
+<div align="center">
+
+![CodeTwin ML v1.0.0 Initial Release](docs/assets/codetwin-ml-v1.0.0-release.svg)
+
+[![Release](https://img.shields.io/badge/release-v1.0.0-1675e0?style=for-the-badge)](https://github.com/OpenMind-AI-Technologies-Limited/CodeTwin/releases/tag/v1.0.0) [![Platform](https://img.shields.io/badge/binary-Windows%20x64-18a999?style=for-the-badge)](https://github.com/OpenMind-AI-Technologies-Limited/CodeTwin/releases/tag/v1.0.0)
+
+</div>
+
+## Download CodeTwin ML v1.0.0
+
+**Initial public release · November 18, 2026.** CodeTwin ML is a local-first Software Digital Twin desktop application for evidence-based code analysis, security review, and approval-gated repairs.
+
+| Download | Platform | Purpose |
+| --- | --- | --- |
+| [Windows x64 EXE installer](https://github.com/OpenMind-AI-Technologies-Limited/CodeTwin/releases/download/v1.0.0/CodeTwin-ML_1.0.0_x64-setup.exe) | Windows 64-bit | Recommended desktop installation |
+| [Windows x64 MSI installer](https://github.com/OpenMind-AI-Technologies-Limited/CodeTwin/releases/download/v1.0.0/CodeTwin-ML_1.0.0_x64_en-US.msi) | Windows 64-bit | Alternative MSI installation |
+| [SHA-256 checksums](https://github.com/OpenMind-AI-Technologies-Limited/CodeTwin/releases/download/v1.0.0/SHA256SUMS.txt) | All downloads | Verify downloaded files |
+| [Full release notes](https://github.com/OpenMind-AI-Technologies-Limited/CodeTwin/releases/tag/v1.0.0) | All | Features, limitations, and additional launcher scripts |
+
+**Install:** Download the EXE or MSI, verify its SHA-256 checksum, then run the installer. In PowerShell, use `Get-FileHash .\CodeTwin-ML_1.0.0_x64-setup.exe -Algorithm SHA256` and compare with the published checksum file. Linux `.sh` and macOS `.command` release assets are **launch scripts, not native application binaries**; build the application on those platforms if needed. No AI model weights are bundled.
+
+---
+
 # CodeTwin ML
 
 **A local-first desktop app that understands your codebase, finds quality and security problems, and helps you fix them safely — with proof.**
