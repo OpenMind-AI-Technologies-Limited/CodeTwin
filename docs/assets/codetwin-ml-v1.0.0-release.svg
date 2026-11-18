@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+<title id="title">CodeTwin ML version 1.0.0 initial release</title><desc id="desc">Dark navy release banner with cobalt and aqua line art illustrating a software digital twin. Windows x64 release by OpenMind AI Technologies Limited.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071426"/><stop offset=".62" stop-color="#101D3A"/><stop offset="1" stop-color="#062C38"/></linearGradient><linearGradient id="glow" x2="1" y2=".5"><stop stop-color="#4B81FF"/><stop offset="1" stop-color="#48E4CE"/></linearGradient><radialGradient id="rad"><stop stop-color="#21D3CD" stop-opacity=".23"/><stop offset="1" stop-color="#21D3CD" stop-opacity="0"/></radialGradient><pattern id="dots" width="42" height="42" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#7592C5" opacity=".14"/></pattern></defs>
+<rect width="1600" height="640" fill="url(#bg)"/><rect width="1600" height="640" fill="url(#dots)"/><circle cx="1280" cy="310" r="430" fill="url(#rad)"/>
+<path d="M70 84h74M70 84v72M1530 550h-74M1530 550v-72" fill="none" stroke="#58DAD6" opacity=".55" stroke-width="3"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="85" y="82" width="203" height="43" rx="21" fill="#1D3D5C" stroke="#477394"/><circle cx="110" cy="104" r="5" fill="#5EE6C5"/><text x="127" y="111" fill="#C4F4EC" font-weight="700" font-size="19" letter-spacing="1">INITIAL RELEASE</text>
+<text x="84" y="251" fill="#FFFFFF" font-size="100" font-weight="800" letter-spacing="-4">CodeTwin <tspan fill="#69DBE3">ML</tspan></text>
+<text x="88" y="337" fill="#D4E1FF" font-size="52" font-weight="700">Version 1.0.0</text>
+<text x="88" y="394" fill="#A8BED7" font-size="27">Understand code. Find risks. Fix with proof.</text>
+<rect x="85" y="436" width="454" height="55" rx="13" fill="#173553" stroke="#315B7F"/><text x="109" y="472" fill="#E7F4FF" font-weight="700" font-size="22">LOCAL-FIRST</text><path d="M276 451v26" stroke="#4E7089"/><text x="299" y="472" fill="#6EE4C8" font-weight="700" font-size="22">WINDOWS x64</text>
+<text x="88" y="563" fill="#829FBF" font-size="22" letter-spacing=".5">OPENMIND AI TECHNOLOGIES LIMITED</text>
+</g>
+<g fill="none" stroke="url(#glow)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M1152 115 1390 240 1390 440 1152 565 916 440 916 240Z" opacity=".45"/>
+<path d="M1152 165 1337 260 1337 419 1152 518 969 419 969 260Z"/>
+<path d="M1152 165v353M969 260l183 109 185-109M969 419l183-105 185 105" opacity=".62"/>
+<path d="M1044 304l108-64 108 64-108 65Z" fill="#102E4A"/><path d="M1044 304v118l108 61 108-61V304" fill="#10364B"/><path d="M1152 369v114M1044 304l108 65 108-65"/>
+</g>
+<g fill="#68E7D8"><circle cx="1152" cy="165" r="9"/><circle cx="969" cy="260" r="8"/><circle cx="1337" cy="419" r="8"/><circle cx="1152" cy="483" r="10"/><circle cx="1044" cy="304" r="7"/></g>
+<g stroke="#5BCDDD" opacity=".45" stroke-width="2"><path d="M1390 240h105M1390 440h105M916 240h-65M916 440h-65"/><circle cx="1495" cy="240" r="6" fill="#5BCDDD"/><circle cx="1495" cy="440" r="6" fill="#5BCDDD"/></g>
+</svg>
